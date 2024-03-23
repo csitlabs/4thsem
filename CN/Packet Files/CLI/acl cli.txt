@@ -1,0 +1,11 @@
+Router>enable
+Router#configure terminal
+Router(config)#ip access-list standard 11
+Router(config-std-nacl)#deny host 192.168.10.1
+Router(config-std-nacl)#permit any
+Router(config-std-nacl)#exit
+Router(config)#interface fastEthernet 0/0
+Router(config-if)#ip access-group 11 in
+Router(config-if)#exit
+Router(config)#exit
+Router#

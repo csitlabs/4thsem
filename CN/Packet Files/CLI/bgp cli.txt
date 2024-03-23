@@ -1,0 +1,21 @@
+For Router0,
+
+Router>enable
+Router#configure terminal
+Router(config)#router bgp 100
+Router(config-router)#neighbor 192.168.10.2 remote-as 200
+Router(config-router)#network 192.168.20.0 mask 255.255.255.0
+Router(config-router)#exit
+Router(config)#exit
+Router#
+
+
+For Router1,
+
+Router>enable
+Router#configure terminal
+Router(config)#router bgp 200
+Router(config-router)# #neighbor 192.168.10.1 remote-as 100
+Router(config-router)# #network 192.168.30.0 mask 255.255.255.0
+Router(config-router)#exit
+Router(config)#

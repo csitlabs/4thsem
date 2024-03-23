@@ -1,0 +1,20 @@
+1. Networking Devices
+2. Ethernet Wiring
+3. Networks Command
+4. Overview of IP Addressing & Subnetting
+5. Packet Tracer Introduction & Features
+6. Creating a LAN
+7. DHCP
+8. VLAN
+9. Basic Router Config
+10. Static Routing
+11. RIP
+12. OSPF
+13. BGP
+14. Firewall
+15. ACL
+16. Wireshark
+17. DNS
+18. Web Server
+19. FTP Server
+20. Email Server

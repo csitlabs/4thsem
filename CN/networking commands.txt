@@ -1,0 +1,14 @@
+1. ipconfig
+2. ipconfig /all
+3. hostname
+4. arp -a
+5. ping www.google.com
+6. tracert www.google.com - google.com bata data kata kata bata ako xa thaha hunxa, check that in apnic advanced search.
+7. pathping www.google.com - combination of ping & tracert
+8. route print
+9. nslookup - dns ra ip ko status
+10. netstat - tcp connection ko status
+11. systeminfo - all info of system
+
+
+heading & screenshot in labreport
