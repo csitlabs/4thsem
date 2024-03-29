@@ -1,6 +1,6 @@
 // 6.2 Convert RE to FA - a(a+b)*b
-// not accepted baa
-// accepted aabb
+// not accepted abab
+// accepted baa
 
 #include <stdio.h>
 #include <stdlib.h>
